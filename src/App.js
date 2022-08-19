@@ -1,7 +1,9 @@
+import { Card } from "./components/Card";
+
 function App() {
   return (
     <div className="App">
-      oi
+      <Card amount={4}/>
     </div>
   );
 }
